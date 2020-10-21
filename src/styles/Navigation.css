@@ -1,0 +1,28 @@
+.main ul {
+  list-style-type: none;
+  padding: 0 30px 30px 0;
+}
+
+nav.main {
+}
+
+nav.main a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px;
+  transition: 0.5s;
+}
+nav.main a:hover {
+  transform: translateX(20px);
+  letter-spacing: 5px;
+}
+nav.main a.active {
+  color: darkgray;
+}
+
+/* nav.main li:nth-child(1) a.active {
+   
+} */

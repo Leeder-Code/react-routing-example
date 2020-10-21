@@ -1,0 +1,15 @@
+.products p {
+  margin-bottom: 20px;
+}
+.products h2 {
+  margin-bottom: 25px;
+}
+.products a {
+  text-decoration: none;
+  color: darkgreen;
+  transition: 0.5s;
+}
+.products a:hover {
+  text-decoration: underline;
+  color: black;
+}
